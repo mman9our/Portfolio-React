@@ -7,7 +7,7 @@ import { RiServiceFill } from 'react-icons/ri'
 import { BiMessageSquareDetail } from 'react-icons/bi'
 import { useState } from 'react'
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
+  const [activeNav, setActiveNav] = useState('#');
   return (
     <nav>
       <a href="#" onClick={() => setActiveNav('#')} className={ activeNav === '#' ? 'active' : '' } ><AiOutlineHome /></a>

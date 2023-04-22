@@ -13,6 +13,8 @@ nav{
     border-radius: 3rem;
     backdrop-filter: blur(15px);
 }
+
+
 nav a
 {
     background: transparent;
@@ -31,3 +33,5 @@ nav a.active
     background: var(--color-primary);
     color: var(--color-bg);
 }
+
+

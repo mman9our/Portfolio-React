@@ -15,7 +15,7 @@
 {
     /* --color-bg: #1f1f38; */
     --color-bg: hsl(216,48%,8%);
-    --color-bg-variant: hsl(216,57%,23%);
+    --color-bg-variant: #19345c;
     --color-primary: #8ec8eb;
     --color-primary-variant: rgba(77,181,255,0.4);
     --color-white: #fff;
