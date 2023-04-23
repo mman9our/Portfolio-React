@@ -50,3 +50,29 @@ font-size: var(--tiny-font-size);
 .skills__description{
 margin-bottom: 2rem;
 }
+
+
+/* ================== MEDIA QUERY (Medium Device)==================== */
+
+@media screen and (max-width : 1024px) {
+
+    .skills__info{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 3rem;
+        margin-bottom: 5rem;
+        height: 30rem;
+}
+}
+
+/* ================== MEDIA QUERY (Small Device)==================== */
+
+@media screen and (max-width : 600px) {
+    .skills__info{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 3rem;
+        margin-bottom: 5rem;
+        height: 30rem;
+}
+}
